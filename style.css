@@ -1,0 +1,53 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+body{
+    font-size: clamp(1rem, 0.25rem + 0.5vw, 0.25rem);
+
+}
+.card{
+    justify-content: center;
+    align-items: center;
+}
+  
+.container{
+   
+    display:flex;
+    justify-content: center;
+   align-self: flex-end;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: clamp(1rem, 2.5vw, 2rem); 
+    
+   
+}
+.box{
+    width: 19vw;
+    height: 30vh;
+    border-radius: 11px 11px 11px 11px;
+    background-color: blueviolet;
+    
+    
+}
+.box1{
+    width: 19vw;
+    height: 20vh;
+    flex-wrap: wrap-reverse;
+   
+    border-radius: 11px 11px 11px 11px;
+    background-color: rgb(137, 4, 4);
+}
+.box2{
+   
+    width: 19vw;
+    height: 30vh;
+    border-radius: 11px 11px 11px 11px;
+    background-color: rgb(164, 155, 172);
+}
+.font{
+  
+   font-size: clamp(1rem, 0.75vw, 1rem); 
+
+}
+.box:hover{
+
+}
